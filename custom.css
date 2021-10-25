@@ -1,0 +1,247 @@
+body {
+  font-family: "Urbanist", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.btn {
+  max-width: max-content;
+  border-radius: 0;
+  border: solid 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Navigation */
+
+.navbar-brand img {
+  width: 10rem;
+}
+
+.nav-search-input {
+  height: 1.5rem;
+}
+.search-btn {
+  border: solid 1.5px;
+  font-size: 0.9rem;
+  padding: 0 1rem;
+}
+
+/* Header Banner */
+.hb-content {
+  font-size: 0.9rem;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .hb-content {
+    flex-wrap: wrap;
+    margin-top: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+}
+.header-banner button {
+  padding: 1.5px 8px;
+  border: solid 1.5px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .header-banner button {
+    padding: 5px 8px;
+    margin-top: 0;
+  }
+  .banner-text {
+    margin-bottom: 0.2rem;
+  }
+}
+
+/* Header */
+.sec-1 {
+  background-image: url(./images/optimized/oldermanwojacket-hood.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .sec-1 {
+    height: 80vh;
+  }
+}
+
+.header-text {
+  max-width: fit-content;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+@media (min-width: 992px) {
+  .header-text {
+    padding-top: 15rem;
+  }
+}
+
+.header-logo {
+  padding-bottom: 2rem;
+}
+
+/* Section Two */
+.sec-2 {
+  padding: 0.5rem 0;
+}
+#sec-2-col-1 {
+  background-image: url(./images/optimized/sportbrabadass.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-2-col-1 {
+  padding: 10rem 0;
+}
+@media (min-width: 992px) {
+  .sec-2-col-2 {
+    margin-left: 0.5rem !important;
+  }
+}
+
+#sec-2-col-2 {
+  background-image: url(./images/optimized/femalehoodie.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec-2-col-2 {
+  padding: 10rem 0;
+}
+@media (max-width: 992px) {
+  .sec-2-col-2 {
+    margin-top: 0.5rem !important;
+  }
+}
+
+/* Footware */
+.sec-3 {
+  background-image: url(./images/optimized/runningfootwear.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footwear-text {
+  padding: 10rem 0;
+}
+
+.shop-under-square {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.2rem 0;
+}
+@media (min-width: 992px) {
+  .shop-under-square:nth-child(2) {
+    margin-left: 0.4rem !important;
+    margin-right: 0.4rem !important;
+  }
+}
+
+/* Shoe slider */
+
+div.slider-item img {
+  margin-left: 0 !important;
+
+  display: inline-block;
+}
+
+/* For the kids */
+#for-kids-container {
+  background-image: url(./images/optimized/forthekids2.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0.2rem;
+}
+.for-kids-container {
+  padding: 11rem 0;
+  position: relative;
+}
+
+.for-kids-text {
+  width: max-content;
+}
+
+/* Footer */
+
+/* Account Login Modal */
+body {
+  font-family: "Varela Round", sans-serif;
+}
+.modal-login {
+  width: 320px;
+  margin: 30px auto;
+}
+.modal-login .modal-content {
+  border-radius: 1px;
+  border: none;
+}
+.modal-login .modal-header {
+  position: relative;
+  justify-content: center;
+  background: #f2f2f2;
+}
+.modal-login .modal-body {
+  padding: 30px;
+}
+.modal-login .modal-footer {
+  background: #f2f2f2;
+}
+.modal-login h4 {
+  text-align: center;
+  font-size: 26px;
+}
+.modal-login label {
+  font-weight: normal;
+  font-size: 13px;
+}
+.modal-login .form-control,
+.modal-login .btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.modal-login .hint-text {
+  text-align: center;
+}
+.modal-login .close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.modal-login .checkbox-inline {
+  margin-top: 12px;
+}
+.modal-login input[type="checkbox"] {
+  margin-top: 2px;
+}
+.modal-login .btn {
+  min-width: 100px;
+  line-height: normal;
+  border: solid 1px;
+}
+.modal-login .btn:hover,
+.modal-login .btn:focus {
+  background-color: black;
+  color: white;
+}
+.modal-login .hint-text a {
+  color: #999;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
