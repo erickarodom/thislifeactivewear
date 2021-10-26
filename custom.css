@@ -24,6 +24,7 @@ h2 {
 
 .nav-search-input {
   height: 1.5rem;
+  min-width: 125px;
 }
 .search-btn {
   border: solid 1.5px;
@@ -244,4 +245,15 @@ body {
 .trigger-btn {
   display: inline-block;
   margin: 100px auto;
+}
+
+/* Shopping Cart */
+
+.cart i {
+  width: 500px;
+  height: 500px;
+}
+
+.shopping-cart-btn:hover {
+  color: white !important;
 }
